@@ -76,3 +76,11 @@ class Category(db.Model):
       'id': self.id,
       'type': self.type
     }
+
+  def toDict(categories):
+    data = {}
+
+    for item in categories:
+      data[item.id] = item.type
+  
+    return data
