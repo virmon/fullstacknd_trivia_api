@@ -113,7 +113,7 @@ GET '/questions'
         }
     ],
     "success": true,
-    "total_questions": 20
+    "total_questions": 3
 }
 ```
 
@@ -148,7 +148,7 @@ GET '/categories/<int:category_id>/questions'
         }
     ],
     "success": true,
-    "total_questions": 4
+    "total_questions": 3
 }
 ```
 
